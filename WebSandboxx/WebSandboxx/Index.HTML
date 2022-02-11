@@ -34,6 +34,12 @@
     <meta name="keywords" content="Learning, HTML, CSS, Website basics, FED1, Centriq" />
     <meta name="author" content="Payton VonHolten" />
 
+    <!-- EXTERNAL StyleSheet -->
+    <link href="css/custom.CSS" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="..//favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="..//favicon.ico" type="image/x-icon" />
+
 </head>
 <body>
     <!-- Body Tages:
@@ -49,26 +55,37 @@
 
         <!-- A header is a container at the top of a page or section -->
 
-        <h1>Web &nbsp; Sandboxx</h1>
-        <!-- h1 acts as a site title, it is often seen in banners.-->
+        <div id="headerOverlay">
+            <h1>Web &nbsp; Sandboxx</h1>
+            <!-- h1 acts as a site title, it is often seen in banners.-->
 
-        <p>Notes and resources for HTML and CSS</p>
+            <p>Notes and resources for HTML and CSS</p>
+        </div>
         <!-- Tag line -->
 
     </header>
 
-    <!--TODO: Add navbar to index.html -->
-    <!-- We will add a nav element here, which is a container used for main navigation links -->
+ 
 
     <main>
         <!-- <main> is the container for the primary page content and should only be used ONCE for each page -->
 
-        <section>
+        <aside id="rightColumn">
+            <!-- An <aside> holds content that is indirectly related to the main page or section -->
+
+            <h2>Key Terms</h2>
+
+            <p>
+                This is an area you can list key terms and important notes from FED1.
+            </p>
+        </aside>
+
+        <section class="mainWrapper" id="leftColumn">
             <!-- <section> is a generic section of a page/block of content. It is used for thematic grouping of content -->
 
             <h1>Web Sandboxx: Let's Build Stuff</h1>
 
-            <article>
+            <article id="frontendDev">
 
                 <!-- <artical> is a specific type of section. It holds content that could be independently reproduced -->
 
@@ -85,6 +102,9 @@
                 <section>
                     <!-- This is a sub section within a larger block of content. -->
 
+
+                    <img src="Images/HTML_logo.png" alt="Logo for the HTML coding language" title="HTML" id="html" />
+
                     <h3>HTML</h3>
                     <p>
                         Hypertext Markup language (HTML) is used to define the structure of the content of a web page.
@@ -97,6 +117,8 @@
 
                 <section>
 
+                    <img src="Images/CSS_logo.png" alt="Logo for the CSS coding language" title="CSS" id="css" />
+
                     <h3>CSS</h3>
                     <p>
                         Cascading Style Sheets (CSS) is used for the formatting and layout of a web page content. It was
@@ -106,6 +128,8 @@
                 </section>
 
                 <section>
+
+                    <img src="Images/JS_logo.png" alt="Logo for the JS coding language" title="JS" id="js" />
 
                     <h3>JS</h3>
                     <p>
@@ -147,15 +171,7 @@
 
         </section>
 
-        <aside>
-            <!-- An <aside> holds content that is indirectly related to the main page or section -->
 
-            <h2>Key Terms</h2>
-
-            <p>
-                This is an area you can list key terms and important notes from FED1.
-            </p>
-        </aside>
 
 
 

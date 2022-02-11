@@ -67,7 +67,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\Classes.CSS" />
+    <Content Include="CSS\StyleSheet.CSS" />
     <Content Include="FED1StudioProject.html" />
+    <Content Include="Classes.HTML" />
+    <Content Include="Contact.HTML" />
+    <Content Include="Images\admin.png" />
+    <Content Include="Images\arches.jpg" />
+    <Content Include="Images\claudio-testa-iqeG5xA96M4-unsplash.jpg" />
+    <Content Include="Images\fortnite.jpg" />
+    <Content Include="Images\libraryDept.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\Picture1.jpg" />
+    <Content Include="Images\Picture2.png" />
+    <Content Include="Images\Picture3.png" />
+    <Content Include="Images\ralph.jpg%27.jpg" />
+    <Content Include="Images\SkyHigh.jpg" />
+    <Content Include="Images\structure.jpg" />
+    <Content Include="Images\teachers.png" />
+    <Content Include="Team.HTML" />
+    <Content Include="Index.HTML" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -83,8 +102,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CSS\" />
-    <Folder Include="Images\" />
     <Folder Include="JS\" />
   </ItemGroup>
   <PropertyGroup>
