@@ -1,17 +1,54 @@
-﻿body {
-    background-color: lavender
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+header {
+    background-color: lightslategrey;
 }
 
-<header {
-    background-color: lavenderblush
+main {
+    background-color: whitesmoke;
+    box-shadow: 15px 10px 20px #9c95c7;
 }
 
-<main {
-    background-color: lightgray
+.headingStyle {
+    font-weight: bold;
+    color: lightslategray;
+    font-family: 'Dongle', cursive;
+    font-size: 2em;
+    text-align: center;
 }
 
-<main {
-    color: black
+.headingStyle2 {
+    font-weight: bold;
+    color: lightslategray;
+    font-family: 'Righteous', cursive;
+    font-size: 1em;
+}
+
+#asideHeader {
+    background-color: ghostwhite;
+    color: black;
+    font-family: 'Dongle', cursive;
+    font-size: 1.5em;
+}
+
+nav a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+
+    nav a:hover {
+        color: lightslategray;
+    }
+
+#active {
+    font-weight: bold;
+    color: lavender;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
 }
 
 nav ul li {
@@ -19,15 +56,323 @@ nav ul li {
 }
 
     nav ul li a {
-        padding: .4em 1em;
-        display: block
+        padding: .8em 1em;
+        display: block;
     }
 
-nav ul {
-    background-color: lightblue;
-    padding: 0;
-    border-top: 4px solid Black;
-    border-bottom: 2px solid Black;
+.classesText {
+    color: #5e748c;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header p {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Dongle', cursive;
+}
+
+p {
+    font-family: 'Dongle', cursive;
+}
+
+body {
+    background-image: url('../Images/background.jpg');
+    background-repeat: repeat;
+    background-color: lavender;
+    margin: 2%;
+}
+
+#imageGallery {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+div.galleryItem {
+    margin: 5px;
+    border: 1px solid lightslategrey;
+    display: inline-block;
+    width: 350px;
 }
 
 
+.galleryItem:hover {
+    border: 1px solid #EE9DC3;
+}
+
+div#imageGallery img {
+    width: 350px;
+    height: auto;
+}
+
+div.description {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.asideWrapper {
+    padding: 1%;
+}
+
+footer {
+    padding: 3%;
+    font-family: 'Dongle', cursive;
+    font-size: 1.5em;
+}
+
+#headerOverlay {
+    background-image: url('../Images/PossibleLogo.jpg');
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 3% center;
+    padding: 2em;
+}
+
+
+header h1, header p {
+    margin: 7px 0 7px 150px;
+    text-align: left;
+}
+
+header h1 {
+    text-align: left;
+    letter-spacing: 0.1em;
+}
+
+header {
+    border-radius: 5px;
+}
+
+.clear {
+    clear: both
+}
+
+.teamImageLeft {
+    width: 25%;
+    float: left;
+}
+
+.teamImage {
+    width: 45%;
+    margin: 3%;
+    padding: 5%;
+}
+
+.teamTextRight {
+    width: 75%;
+    float: right;
+    font-size: 1.3em;
+}
+
+#asideTeam {
+    width: 20%;
+    float: right;
+    padding-left: 3%;
+    box-sizing: border-box;
+}
+
+#teamLeftColumn {
+    margin-right: 25%;
+    border-right: 1px dashed #B6E0EA
+}
+
+#teamRightColumn {
+    width: 23%;
+    float: right;
+}
+
+.headingStyle2, p {
+    font-size: 1.2em;
+}
+
+table, tr, td, th {
+    border-collapse: collapse;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 2em;
+    margin-top: 5em;
+    width: 80%;
+    text-align: center;
+    border: solid 2px #254069;
+    border-top: none;
+    border-spacing: 0;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+td, th {
+    padding: .3em;
+}
+
+thead {
+    background-color: lavender;
+}
+
+tfoot tr, td {
+    border: 0;
+}
+
+tbody {
+    font-family: 'Dongle', cursive;
+    font-size: 25px;
+}
+
+    tbody tr:nth-child(even) {
+        background-color: lavender
+    }
+
+.imageRTextL {
+    width: 95%;
+}
+
+    .imageRTextL img {
+        float: right;
+        margin-right: 15%;
+    }
+
+    .imageRTextL p {
+        margin-right: 52%;
+        margin-left: 2%;
+        font-size: 1.5em;
+        padding-top: 7%;
+    }
+
+.imageLTextR {
+    width: 95%;
+}
+
+    .imageLTextR img {
+        float: left;
+        margin-left: 15%;
+    }
+
+    .imageLTextR p {
+        margin-left: 55%;
+        font-size: 1.5em;
+        padding-top: 7%
+    }
+
+#aboutUsImg {
+    float: left;
+    margin-left: 7%;
+}
+
+#aboutUsText {
+    margin-left: 30%;
+    padding-top: 5%;
+}
+
+.socialIcons {
+    font-size: 40px;
+    text-align: right;
+    float: right;
+    letter-spacing: 12px;
+    color: #5F8265
+}
+
+    .socialIcons a {
+        color: #5F8265;
+        text-decoration: none;
+    }
+
+.contactStyle {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    left: 0;
+    background-color: rgba(156,149,199,.9);
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: .5s;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 35px;
+        color: #9C006B;
+        display: block;
+        transition: .3s;
+        font-family: 'Dongle', cursive;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+.close-btn {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+.button {
+    font-family: 'Dongle', cursive;
+    background: rgba(156,149,199,.9);
+    height: 100%;
+    width: 20px;
+    z-index: 1030;
+    position: fixed;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.vertical-text {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    writing-mode: vertical-lr;
+    font-weight: bold;
+    font-family: 'Dongle', cursive;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: #9C006B;
+}
+
+.teamImage {
+    cursor: pointer;
+}
+
+#lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    text-align: center;
+    padding: 65px;
+    display: none;
+}
+
+#lightbox-container {
+    color: white;
+}
+
+#lightbox-content img {
+    border: 10px solid gray;
+    margin: auto;
+}

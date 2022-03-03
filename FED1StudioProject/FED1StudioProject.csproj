@@ -74,7 +74,9 @@
     <Content Include="Contact.HTML" />
     <Content Include="Images\admin.png" />
     <Content Include="Images\arches.jpg" />
+    <Content Include="Images\background.jpg" />
     <Content Include="Images\claudio-testa-iqeG5xA96M4-unsplash.jpg" />
+    <None Include="Images\fa-facebook-square" />
     <Content Include="Images\fortnite.jpg" />
     <Content Include="Images\libraryDept.png" />
     <Content Include="Images\logo.png" />

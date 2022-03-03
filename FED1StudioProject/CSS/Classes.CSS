@@ -34,4 +34,13 @@ nav ul {
     text-align:center
 }
 
-
+table {
+    margin: auto;
+    margin-bottom: 2em;
+    margin-top: 5em;
+    width: 80%;
+    text-align: center;
+    border: solid 2px #254069;
+    border-top: none;
+    border-spacing: 0;
+}
